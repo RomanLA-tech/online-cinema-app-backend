@@ -1,0 +1,74 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2020",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "baseUrl": "./src/",
+    "paths": {
+      "@/decorators/*": [
+        "common/decorators/*"
+      ],
+      "@/guards/*": [
+        "common/guards/*"
+      ],
+      "@/interceptors/*": [
+        "common/interceptors/*"
+      ],
+      "@/pipes/*": [
+        "common/pipes/*"
+      ],
+      "@/config/*": [
+        "config/*"
+      ],
+      "@/auth/*": [
+        "auth/*"
+      ],
+      "@/user/*": [
+        "user/*"
+      ],
+      "@/genre/*": [
+        "genre/*"
+      ],
+      "@/actor/*": [
+        "actor/*"
+      ],
+      "@/file/*": [
+        "file/*"
+      ],
+      "@/movie/*": [
+        "movie/*"
+      ],
+      "@/rating/*": [
+        "rating/*"
+      ],
+      "@/telegram/*": [
+        "telegram/*"
+      ],
+      "@/core/*": [
+        "core/*"
+      ],
+      "@/utils/*": [
+        "utils/*"
+      ],
+      "@/common/*": [
+        "common/*"
+      ],
+      "@constants": [
+        "common/constants"
+      ]
+    }
+  }
+}
